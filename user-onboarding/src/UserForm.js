@@ -19,10 +19,10 @@ export default function UserForm(props) {
             <div>
                 <h2>Add a User:</h2>
                 <div className="errors">
-                    <div>{errors.username}</div>
+                    <div>{errors.name}</div>
                     <div>{errors.email}</div>
-                    <div>{errors.role}</div>
-                    <div>{errors.civil}</div>
+                    <div>{errors.password}</div>
+                    <div>{errors.termsOfService}</div>
                 </div>
                 <div className="form-inputs">
                     <label>
